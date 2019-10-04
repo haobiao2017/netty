@@ -10,11 +10,7 @@ public class EchoServerHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-        String body = (String) msg;
-        System.out.println("This is " + ++counter + " times receive clint:[" + body + "]");
-        body += "$_";
-        ByteBuf echo = Unpooled.copiedBuffer(body.getBytes());
-        ctx.writeAndFlush(echo);
+        System.out.println("Receive clint:[" + msg + "]");
     }
 
     @Override
