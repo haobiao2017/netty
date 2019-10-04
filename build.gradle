@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'com.hb'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.12
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'com.google.guava', name: 'guava', version: '28.1-jre'
+    compile group: 'io.netty', name: 'netty-all', version: '4.1.42.Final'
+}
