@@ -16,4 +16,5 @@ dependencies {
     compile group: 'com.google.guava', name: 'guava', version: '28.1-jre'
     compile group: 'io.netty', name: 'netty-all', version: '4.1.42.Final'
     compile 'org.msgpack:msgpack:0.6.12'
+    compile 'com.google.protobuf:protobuf-java:3.9.2'
 }
