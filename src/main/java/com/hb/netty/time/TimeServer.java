@@ -1,4 +1,4 @@
-package com.hb.netty;
+package com.hb.netty.time;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
