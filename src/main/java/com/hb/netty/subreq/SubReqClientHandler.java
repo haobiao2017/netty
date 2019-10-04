@@ -1,5 +1,6 @@
-package com.hb.netty.ende.protobuf;
+package com.hb.netty.subreq;
 
+import com.hb.netty.ende.protobuf.SubscribeReqProto;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 
@@ -16,7 +17,7 @@ public class SubReqClientHandler extends ChannelInboundHandlerAdapter {
         SubscribeReqProto.SubscribeReq.Builder builder = SubscribeReqProto.SubscribeReq.newBuilder();
         builder.setSubReqID(i);
         builder.setUserName("HaoBiao");
-        builder.setProductName("Netty Book For Protobuf");
+        builder.setProductName("Netty Book For Marshalling");
         builder.setAddress("Chengdu");
         return builder.build();
     }

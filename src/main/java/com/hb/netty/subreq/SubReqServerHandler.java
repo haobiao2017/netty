@@ -1,5 +1,7 @@
-package com.hb.netty.ende.protobuf;
+package com.hb.netty.subreq;
 
+import com.hb.netty.ende.protobuf.SubscribeReqProto;
+import com.hb.netty.ende.protobuf.SubscribeRespProto;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 

@@ -17,4 +17,6 @@ dependencies {
     compile group: 'io.netty', name: 'netty-all', version: '4.1.42.Final'
     compile 'org.msgpack:msgpack:0.6.12'
     compile 'com.google.protobuf:protobuf-java:3.9.2'
+    compile group: 'org.jboss.marshalling', name: 'jboss-marshalling', version: '2.0.9.Final'
+    compile group: 'org.jboss.marshalling', name: 'jboss-marshalling-serial', version: '2.0.9.Final'
 }
